@@ -28,10 +28,10 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 
-""" 
+"""
   Configure your Database here. Assume you are using defaut port 5432.
 """
-# Connect PostgreSQL database
+# Connect PostgreSQL database.
 try:
     conn = psycopg2.connect(dbname="Your_Database_Name", user="Your_Username", password="Your_Password", host="localhost")
 except psycopg2.Error as connection_error:
