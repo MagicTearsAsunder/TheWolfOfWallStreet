@@ -10,7 +10,7 @@ Description:
   3. At the tab "Quote" you can see the current stocks price and full company name. 
      API data provided by https://cloud.iexapis.com/
      
-  4. In "Buy" you can buy a some number of stocks. Also at its current price.
+  4. In "Buy" you can buy required amount of stocks. Also at its current price.
   
   5. In "Sell" you can sell them.
   
