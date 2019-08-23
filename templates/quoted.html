@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Wall Street: Quoted
+{% endblock %}
+
+{% block main %}
+    <form action="/quote" method="post">
+        <main class="container p-5">
+             {{ text }}
+        </main>
+    </form>
+{% endblock %}
